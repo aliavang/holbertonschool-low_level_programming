@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Print whether last digit of number is less, greater, or 0.
+ * main - Entry point
  *
  * Return: 0 (Success)
  */
