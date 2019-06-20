@@ -1,4 +1,4 @@
-In this project, we work mainly with C by solving tasks to get a better understanding of the C language file formatting. We also learn how to use while loop to understand how loops work. Restricted from using puts and printf, and limited to using mainly putchar, when paired with while loops, it helps us better understand loops and how printf and puts potentially work under the hood.
+In this project, we work mainly with C by solving tasks to get a better understanding of the C language file formatting. We also learn how to use while loop to understand how loops work and work with "if...else" statements to learn how to modify the condition of our loop. Using mainly putchar paired with while loops, it helps us better understand loops and how printf and puts potentially work under the hood.
 
 0 - A program that will print whether the variable n is positive, negative, or is 0. Variable n is a rgn and will be a different value every time the program is ran.
 
