@@ -1,5 +1,4 @@
 # holbertonschool-low_level_programming
----
 In this repository, we learn all about C.
 ---
 ## Project 0x00-hello_world
