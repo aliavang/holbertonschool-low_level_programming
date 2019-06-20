@@ -2,7 +2,7 @@ In this project, we work mainly with C by solving tasks to get a better understa
 
 0 - A program that will print whether the variable n is positive, negative, or is 0. Variable n is a rgn and will be a different value every time the program is ran.
 
-1 - A program that prints the last digit of variable n which is a rgn. The program will determine whether the last digit of n is greater than 5, is 0, or if it is between 6 and 0.
+1 - A program that prints the last digit of variable n which is a rgn. The program will determine whether the last digit of n is greater than 5, is 0, or if it is less than 6 and not 0.
 
 2 - A program that prints the alphabet in lowercase.
 
