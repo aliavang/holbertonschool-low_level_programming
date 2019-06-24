@@ -7,5 +7,5 @@ This project introduces us to C and the process of GCC. It includes both shell s
 ## [Project 0x01-variables_if_else_while](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while)
 This project takes us deeper into the language of C. We begin coding more in C and no longer deal with shell scripts. In this project, we learn how to work with while loops and how to declare variables as well as how to assign them values.
 
-## [Project 0x02-functions_nested_loops]()
+## [Project 0x02-functions_nested_loops](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x02-functions_nested_loops)
 This project takes us even deeper into loops by having us work with nested loops. Although we had two mandatory tasks in the previous project that dealt with nested loops, this project will focus solely on nested loops, bringing us into the complexity that nested loops can create. We also briefly deal with header files by creating on which includes all our functions we use in the project.
