@@ -20,6 +20,12 @@ void times_table(void)
 			if (pro == 0)
 			{
 				_putchar(pro + '0');
+				if (y_hori == 0 && x_verti != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			else if (pro <= 9)
 			{
