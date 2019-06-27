@@ -12,3 +12,6 @@ This project takes us even deeper into loops by having us work with nested loops
 
 ## [Project 0x03-debugging](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x03-debugging)
 This project takes us into debugging our programs. Here, we learn how to go into our code and see where our code is going wrong. In doing so, we go behind the code and see the logic that is being performed to give us the correct output that we are searching for. We learn how to manually debug our code by following the logic and how to take a close look at our code.
+
+## [Project 0x04-more_functions_nested_loops](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+This project deals with more nested loops. Here, we are using nested loops to do various tasks for us such as printing tables and triangles. There are a few tasks that do not deal with nested loops, instead, it tasks us with single loops which brings us back to the basic of loops and what it does. By doing so, it refreshes our memories so that we do not forget what one single loop does versus two loops, with one nested inside the other.
