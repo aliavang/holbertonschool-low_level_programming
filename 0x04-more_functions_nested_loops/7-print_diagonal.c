@@ -24,8 +24,8 @@ void print_diagonal(int n)
 			loop1++;
 		}
 	}
-       	else
-       	{
-       		_putchar('\n');
-       	}
+	else
+	{
+		_putchar('\n');
+	}
 }
