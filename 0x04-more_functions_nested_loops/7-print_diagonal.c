@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * print_diagonal - Print diagonal line in terminal
+ * @n: Number of slashes to be printed
  *
  * Return: Void
  */
