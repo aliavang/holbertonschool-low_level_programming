@@ -15,3 +15,6 @@ This project takes us into debugging our programs. Here, we learn how to go into
 
 ## [Project 0x04-more_functions_nested_loops](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x04-more_functions_nested_loops)
 This project deals with more nested loops. Here, we are using nested loops to do various tasks for us such as printing tables and triangles. There are a few tasks that do not deal with nested loops, instead, it tasks us with single loops which brings us back to the basic of loops and what it does. By doing so, it refreshes our memories so that we do not forget what one single loop does versus two loops, with one nested inside the other.
+
+## [Project 0x05-pointers_arrays_strings](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+This project brings us into pointers, arrays, and strings. Building on our knowledge of loops and nested loops, we begin handling strings, arrays, and pointers as parameters. By working with pointers as our parameters, we learn that, while the concept of pointers is abstract, it is the same as being passed any kind of parameter. The difference is that we are not copying the parameters into our function, we are working directly with their value via being passed a pointer to them.
