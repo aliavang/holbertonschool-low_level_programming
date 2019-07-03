@@ -14,9 +14,7 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	printf("%d\n", len);
 	n = (len + 1) / 2;
-	printf("%d\n", n);
 	while (n <= len)
 	{
 		_putchar(str[n]);
