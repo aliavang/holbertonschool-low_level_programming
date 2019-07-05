@@ -18,3 +18,6 @@ This project deals with more nested loops. Here, we are using nested loops to do
 
 ## [Project 0x05-pointers_arrays_strings](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x05-pointers_arrays_strings)
 This project brings us into pointers, arrays, and strings. Building on our knowledge of loops and nested loops, we begin handling strings, arrays, and pointers as parameters. By working with pointers as our parameters, we learn that, while the concept of pointers is abstract, it is the same as being passed any kind of parameter. The difference is that we are not copying the parameters into our function, we are working directly with their value via being passed a pointer to them.
+
+## [Project 0x06-pointers_arrays_strings](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+This project focuses on more pointers, arrays, and strings. We build up on our knowledge from the previous project and work more with pointers.
