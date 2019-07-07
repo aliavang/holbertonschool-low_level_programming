@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcat - Glue two strings together, but only up to nth bytes from
+ * _strncat - Glue two strings together, but only up to nth bytes from
  * string 2
  * @dest: String one
  * @src: String 2
