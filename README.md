@@ -24,3 +24,6 @@ This project focuses on more pointers, arrays, and strings. We build up on our k
 
 ## [Project 0x07-pointers_arrays_strings](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 This project brings us more pointers. Although most of the tasks deal with pointers, we work a little with pointers-to-pointers and 2d arrays. Here, we expand our knowledge of pointers by learning what pointers to pointers are. Tossed in with pointers-to-pointers, are 2d arrays to demonstrate why pointer-to-pointers are used.
+
+## [Project 0x08-recursion](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x08-recursion)
+This project introduces us to recursion. The tasks we are given are all done recursively. Learning recursion helps us to differentiate between recursion and iteration. Aside from that, it helps us learn what the pros and cons of doing things recursively and via iterations are.
