@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * _strchr - Find specified character in string
  * @s: String to be evaluated
