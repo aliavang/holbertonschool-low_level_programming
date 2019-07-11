@@ -20,9 +20,9 @@ char *_strchr(char *s, char c)
 		}
 		index++;
 	}
-	if (s[index] == '\0')
+		if (s[index] == '\0')
 	{
-		return (s + index);
+		return (s - 1);
 	}
 	else
 	{
