@@ -6,11 +6,8 @@
  *
  * Return: 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-	while (argc == 0)
-	{
-		printf("%s\n", argv[0]);
-		argc++;
-	}
+	printf("%s\n", argv[0]);
+	return (0);
 }
