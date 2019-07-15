@@ -19,15 +19,7 @@ int main(int argc, char *argv[])
 	index = 0;
 	while (index < argc)
 	{
-		if (*argv[index] >= '0' && *argv[index] <= '9')
-		{
-			sum = sum + atoi(argv[index]);
-		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		sum = sum + atoi(argv[index]);
 		index++;
 	}
 	printf("%d\n", sum);
