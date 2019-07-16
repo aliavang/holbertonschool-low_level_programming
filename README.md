@@ -27,3 +27,9 @@ This project brings us more pointers. Although most of the tasks deal with point
 
 ## [Project 0x08-recursion](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x08-recursion)
 This project introduces us to recursion. The tasks we are given are all done recursively. Learning recursion helps us to differentiate between recursion and iteration. Aside from that, it helps us learn what the pros and cons of doing things recursively and via iterations are.
+
+## [Project 0x09-static_libraries](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x09-static_libraries)
+
+## [Project 0x0A-argc_argv](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0A-argc_argv)
+
+## [Project 0x0B-malloc_free](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0B-malloc_free)
