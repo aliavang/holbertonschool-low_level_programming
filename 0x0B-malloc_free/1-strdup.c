@@ -20,10 +20,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	index = 0;
-	while(str[index] != '\0')
+	while (str[index] != '\0')
 	{
 		p_str[index] = str[index];
 		index++;
 	}
+	p_str[index] = '\0';
 	return (p_str);
 }
