@@ -9,7 +9,7 @@ void *malloc_checked(unsigned int b)
 {
 	char *p_mem;
 
-	p_mem = malloc(sizeof(unsigned int) * b);
+	p_mem = malloc(b);
 	if (p_mem == NULL)
 	{
 		exit(98);
