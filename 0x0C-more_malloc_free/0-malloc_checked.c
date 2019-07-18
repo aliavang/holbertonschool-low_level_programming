@@ -9,10 +9,6 @@ void *malloc_checked(unsigned int b)
 {
 	char *p_mem;
 
-	if (b == NULL)
-	{
-		return (NULL);
-	}
 	p_mem = malloc(sizeof(unsigned int) * b);
 	if (p_mem == NULL)
 	{
