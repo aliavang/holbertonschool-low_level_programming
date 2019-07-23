@@ -1,25 +1,38 @@
 #include "dog.h"
 /**
- * _strcpy - Copy string from src to dest
- * @src: Where string is stored
- * @dest: Buffer to copy string to
+ * _strdup - Duplicate a string to newly allocated space
+ * @str: String to be duplicated
  *
- * Return: Pointer to dest
+ * Return: Pointer to newly allocated space
  */
-char *_strcpy(char *dest, char *src)
+char *_strdup(char *str)
 {
-	char *p_dest;
-	int index;
+	char *p_str;
+	int index, len;
 
-	p_dest = dest;
-	index = 0;
-	while (src[index] != '\0')
+	if (str == NULL)
 	{
-		dest[index] = src[index];
+		return (NULL);
+	}
+	len = 0;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+	len = len + 1;
+	p_str = malloc(sizeof(char) * len);
+	if (p_str == NULL)
+	{
+		return (NULL);
+	}
+	index = 0;
+	while (str[index] != '\0')
+	{
+		p_str[index] = str[index];
 		index++;
 	}
-	dest[index] = '\0';
-	return (p_dest);
+	p_str[index] = '\0';
+	return (p_str);
 }
 /**
  * new_dog - New dog profile
@@ -42,21 +55,19 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		return (NULL);
 	}
-	mango->name = malloc(sizeof(name));
+	mango->name = strdup(name);
 	if (mango->name == NULL)
 	{
 		free(mango);
 		return (NULL);
 	}
-	mango->owner = malloc(sizeof(owner));
+	mango->age = age;
+	mango->owner = strdup(owner);
 	if (mango->owner == NULL)
 	{
 		free(mango->name);
 		free(mango);
 		return (NULL);
 	}
-	mango->name = _strcpy(mango->name, name);
-	mango->age = age;
-	mango->owner = _strcpy(mango->owner, owner);
 	return (mango);
 }
