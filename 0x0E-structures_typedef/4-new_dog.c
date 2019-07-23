@@ -1,5 +1,27 @@
 #include "dog.h"
 /**
+ * _strcpy - Copy string from src to dest
+ * @src: Where string is stored
+ * @dest: Buffer to copy string to
+ *
+ * Return: Pointer to dest
+ */
+char *_strcpy(char *dest, char *src)
+{
+	char *p_dest;
+	int index;
+
+	p_dest = dest;
+	index = 0;
+	while (src[index] != '\0')
+	{
+		dest[index] = src[index];
+		index++;
+	}
+	dest[index] = '\0';
+	return (p_dest);
+}
+/**
  * new_dog - New dog profile
  * @name: New dog name
  * @age: New dog age
@@ -33,8 +55,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(mango);
 		return (NULL);
 	}
-	mango->name = name;
+	mango->name = _strcpy(mango->name, name);
 	mango->age = age;
-	mango->owner = owner;
+	mango->owner = _strcpy(mango->owner, owner);
 	return (mango);
 }
