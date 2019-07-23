@@ -10,9 +10,6 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *mango;
-	(void) name;
-	(void) age;
-	(void) owner;
 
 	if (name == NULL || owner == NULL)
 	{
