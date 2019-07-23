@@ -18,20 +18,17 @@ dog_t *new_dog(char *name, float age, char *owner)
 	mango = malloc(sizeof(dog_t));
 	if (mango == NULL)
 	{
-		free(mango);
 		return (NULL);
 	}
 	mango->name = malloc(sizeof(name));
 	if (mango->name == NULL)
 	{
-		free(mango->name);
 		free(mango);
 		return (NULL);
 	}
 	mango->owner = malloc(sizeof(owner));
 	if (mango->owner == NULL)
 	{
-		free(mango->owner);
 		free(mango->name);
 		free(mango);
 		return (NULL);
