@@ -29,15 +29,22 @@ This project brings us more pointers. Although most of the tasks deal with point
 This project introduces us to recursion. The tasks we are given are all done recursively. Learning recursion helps us to differentiate between recursion and iteration. Aside from that, it helps us learn what the pros and cons of doing things recursively and via iterations are.
 
 ## [Project 0x09-static_libraries](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x09-static_libraries)
+This project teaches us how to create our very own static library. It also teaches us why static libraries are useful and how to implement them after creating them. Using static library helps cut the time it takes to compile our files by utilizing the object files contained within our static library.
 
 ## [Project 0x0A-argc_argv](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0A-argc_argv)
+This project introduces us to taking arguments from the command line and teaches us how to use those arguments in our functions. It also teaches us how to void parameters that we do not need to use.
 
 ## [Project 0x0B-malloc_free](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0B-malloc_free)
+This project focuses on malloc and what malloc does. It also teaches us how to use malloc and why malloc is useful to know how to use. Given strings, we are to malloc space for them and are to copy them over to the new space. We also work with pointers alongside malloc.
 
 ## [Project 0x0C-more_malloc_free](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0C-more_malloc_free)
+This project brings us more tasks that deals with malloc. However, in this project, we deal more with the free function and learn how to free appropriately and to solve memory leaks. This project demonstrates the importance of freeing after malloc.
 
 ## [Project 0x0D-preprocessor](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0D-preprocessor)
+In this project, we are introduced to macros and how to declare them in our header files. We are given tasks that give us macros to create. This project also gives us tasks to create macros that function like functions to demonstrate that macros can be defined to behave like functions.
 
 ## [Project 0x0E-structures_typedef](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0E-structures_typedef)
+In this project, structures are introduced to us. We learn that structures are very useful and popular. They contain a collection of many different data types and can be copied to be used to contain different values while still containing the same criteria.
 
 ## [Project 0x0F-function_pointers](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0F-function_pointers)
+In this project, we learn about function pointers. They are useful because they help you cut down on code redundancy. Aside from learning about them, we work with them and learn how to declare function pointers and how to use them. This project expands on our knowledge of pointers and structs while using function pointers.
