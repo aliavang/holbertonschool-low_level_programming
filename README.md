@@ -48,3 +48,6 @@ In this project, structures are introduced to us. We learn that structures are v
 
 ## [Project 0x0F-function_pointers](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x0F-function_pointers)
 In this project, we learn about function pointers. They are useful because they help you cut down on code redundancy. Aside from learning about them, we work with them and learn how to declare function pointers and how to use them. This project expands on our knowledge of pointers and structs while using function pointers.
+
+## [Project Ox10-variadic_functions](https://github.com/aliavang/holbertonschool-low_level_programming/tree/master/0x10-variadic_functions)
+This project brings us to variadic functions. We learn about variadic funtions because it is laying the foundation for learning how to take in a variable amount of arguments without knowing how many arguments they will be. In the past, we had a finite amount of parameters, but this project teaches us that we can take in an undefined amount of parameters without listing them in our function's parameters. It is important, because it helps us learn how to solve cases in which we want user's input but are unsure of how many arguments they will pass over to us.
