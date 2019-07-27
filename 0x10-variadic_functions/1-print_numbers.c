@@ -12,10 +12,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int sum;
 
 	va_start(args, n);
-	if (n == 0)
-	{
-		return;
-	}
 	sum = 0;
 	while (sum < n)
 	{
