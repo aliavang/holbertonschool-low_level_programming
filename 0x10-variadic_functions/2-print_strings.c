@@ -13,10 +13,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *s;
 
 	va_start(string, n);
-	if (n == 0)
-	{
-		return;
-	}
 	index = 0;
 	while (index < n)
 	{
