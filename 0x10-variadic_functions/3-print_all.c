@@ -55,6 +55,7 @@ void print_string(va_list args)
 void print_all(const char * const format, ...)
 {
 	va_list args;
+	char *separator;
 	unsigned int index, index2;
 	format_t formats[] = {
 		{"c", print_char},
@@ -66,6 +67,7 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 	index = 0;
+	separator = "";
 	while (format != NULL && format[index] != '\0')
 	{
 		index2 = 0;
@@ -73,11 +75,9 @@ void print_all(const char * const format, ...)
 		{
 			if (*formats[index2].format == format[index])
 			{
+				printf("%s", separator);
 				formats[index2].f(args);
-				if (index2 < 3)
-				{
-					printf(", ");
-				}
+				separator = ", ";
 			}
 			index2++;
 		}
