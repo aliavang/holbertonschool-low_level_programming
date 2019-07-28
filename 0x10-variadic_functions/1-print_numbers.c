@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	sum = 0;
 	while (sum < n)
 	{
-		printf("%d", va_arg(args, unsigned int));
+		printf("%d", va_arg(args, int));
 		if (sum < n - 1 && separator != NULL)
 		{
 			printf("%s", separator);
