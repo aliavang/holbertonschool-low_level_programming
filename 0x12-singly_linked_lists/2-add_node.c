@@ -21,7 +21,7 @@ unsigned int _strlen(const char *s)
  * @head: Pointer to pointer pointing to head
  * @str: String to place into str field
  *
- * Return: Pointer to list
+ * Return: Address of new node
  */
 list_t *add_node(list_t **head, const char *str)
 {
