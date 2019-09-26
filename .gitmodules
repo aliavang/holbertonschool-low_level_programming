@@ -1,0 +1,6 @@
+[submodule "monty"]
+	path = monty
+	url = https://github.com/aliavang/monty
+[submodule "0x19-stacks_queues_lifo_fifo/monty"]
+	path = 0x19-stacks_queues_lifo_fifo/monty
+	url = https://github.com/aliavang/monty
