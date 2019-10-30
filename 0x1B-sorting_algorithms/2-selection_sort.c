@@ -8,6 +8,7 @@
 void swapme(int *to, int *from)
 {
 	int temp;
+
 	temp = *to;
 	*to = *from;
 	*from = temp;
@@ -21,6 +22,7 @@ void swapme(int *to, int *from)
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, min;
+
 	if (!array || size < 2)
 		return;
 	for (j = 0; j < size - 1; j++)
