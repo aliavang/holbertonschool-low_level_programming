@@ -1,0 +1,4 @@
+all:
+	CC := gcc -o holberton
+	SRC := $(wildcard *.c)
+	${CC} ${SRC}
