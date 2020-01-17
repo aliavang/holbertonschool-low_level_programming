@@ -1,9 +1,20 @@
 #include "search_algos.h"
-
+/**
+ * jump_search - Search value using jump search algorithm
+ * @array: Pointer to beginning of array
+ * @size: Size of array
+ * @value: Value to search for
+ *
+ * Return: Value if found otherwise -1
+ */
 int jump_search(int *array, size_t size, int value)
 {
 	size_t low, high, jump;
 
+	if (array == NULL)
+	{
+		return (-1);
+	}
 	jump = sqrt(size);
 	low = 0;
 	high = jump;
